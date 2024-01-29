@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Todo",
+  "version": "1.0",
+  "description": "간단한 일정관리를 위한 크롬 확장프로그램",
+  "permissions": ["storage", "notifications"],
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
